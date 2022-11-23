@@ -9,9 +9,11 @@ import Foundation
 
 
 struct UserData {
-    let login = "User"
-    let password = "1111"
+    let login: String
+    let password: String
     
-    init() {}
+  static  func getData() -> UserData {
+        UserData(login: "User", password: "1111")
+    }
     
 }

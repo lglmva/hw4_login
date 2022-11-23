@@ -13,8 +13,7 @@ class StartViewController: UIViewController {
     @IBOutlet var password: UITextField!
     @IBOutlet var buttonLogIn: UIButton!
     
-    let oneLogName = UserData.init().login
-    let onePassword = UserData.init().password
+    private var userData = UserData.getData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +31,7 @@ class StartViewController: UIViewController {
         
         
         
-        if oneLogName == firstName.text || onePassword == password.text {
+        if userData.login == firstName.text || userData.password == password.text {
            return
             
         } else {
@@ -59,7 +58,7 @@ class StartViewController: UIViewController {
     
     @IBAction func forgotAccount(_ sender: Any) {
         
-        let alert = UIAlertController(title: "Your name \(UserData.init().login) and password \(UserData.init().password)", message: nil, preferredStyle: .alert)
+        let alert = UIAlertController(title: "Your name \(userData.login) and password \(userData.password)", message: nil, preferredStyle: .alert)
 //                       alert.addTextField(configurationHandler: { textField in
 //                           textField.placeholder = "Введите данные"
 //                       })
