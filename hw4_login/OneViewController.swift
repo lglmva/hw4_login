@@ -9,9 +9,15 @@ import UIKit
 
 class OneViewController: UIViewController {
 
+    
+    @IBOutlet var logOut: UIButton!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        logOut.layer.cornerRadius = 15
         // Do any additional setup after loading the view.
     }
     

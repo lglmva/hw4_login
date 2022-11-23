@@ -15,6 +15,7 @@
 		DC5049FF292D5D62000456AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5049FD292D5D62000456AE /* LaunchScreen.storyboard */; };
 		DC504A07292D6106000456AE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC504A06292D6106000456AE /* StartViewController.swift */; };
 		DC504A09292D6CCD000456AE /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC504A08292D6CCD000456AE /* OneViewController.swift */; };
+		DCC09969292E3B5A00756B3A /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC09968292E3B5A00756B3A /* userData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DC504A00292D5D62000456AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC504A06292D6106000456AE /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		DC504A08292D6CCD000456AE /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		DCC09968292E3B5A00756B3A /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				DC5049FD292D5D62000456AE /* LaunchScreen.storyboard */,
 				DC504A00292D5D62000456AE /* Info.plist */,
 				DC504A06292D6106000456AE /* StartViewController.swift */,
+				DCC09968292E3B5A00756B3A /* userData.swift */,
 			);
 			path = hw4_login;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				DC5049F7292D5D60000456AE /* ViewController.swift in Sources */,
 				DC504A09292D6CCD000456AE /* OneViewController.swift in Sources */,
+				DCC09969292E3B5A00756B3A /* userData.swift in Sources */,
 				DC504A07292D6106000456AE /* StartViewController.swift in Sources */,
 				DC5049F3292D5D60000456AE /* AppDelegate.swift in Sources */,
 				DC5049F5292D5D60000456AE /* SceneDelegate.swift in Sources */,
